@@ -10,7 +10,7 @@ public class fizzbuzz {
     system.out.println("buzz");
     }
     else (i % 15 == 0) {
-    system.out.println("fizzbuzz")
+    system.out.println("fizzbuzz");
     }
     }
     
