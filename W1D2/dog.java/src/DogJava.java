@@ -1,6 +1,6 @@
 
 
-public class DogTestDrive {
+public class DogJava {
 
     public static void main(String[] args) {
         Dog d = new Dog();

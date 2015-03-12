@@ -23,14 +23,14 @@ public class Automobile {
     }
 
     public int accelerate() {
-        this.speed = this.speed + 10;
-        return this.speed;
+        speed = speed + 10;
+        return speed;
     }
 
     public int brake() {
-        this.speed = this.speed - 10;
-        if (this.speed < 0) {
-            this.speed = 0;
+        speed = speed - 10;
+        if (speed < 0) {
+            speed = 0;
         }
 
         return speed;

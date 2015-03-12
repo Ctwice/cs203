@@ -16,8 +16,8 @@ public class truck extends Automobile {
 
     @Override
     public int accelerate() {
-        this.speed = this.speed + 7;
-        return this.speed;
+        speed = speed + 7;
+        return speed;
 
     }
 

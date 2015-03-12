@@ -9,6 +9,19 @@ package HW;
  *
  * @author Pandoras_Box
  */
-public class Vehicle {
+public abstract class Vehicle {
+    private int x;
+    private int y;
+    protected int speed;
+    private int direction;
+    
+    
+    public abstract void move(int amount);
+    public abstract void turn(int amount);
+    public abstract void accelerate();
+    public abstract void brake();
+            
+    
+            
     
 }

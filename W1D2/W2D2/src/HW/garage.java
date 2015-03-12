@@ -5,10 +5,33 @@
  */
 package HW;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Pandoras_Box
  */
 public class garage {
-    
+
+    private Automobile a;
+    private ArrayList items = new ArrayList<>();
+
+    public void store(Automobile a) {
+        this.a = a;
+
+    }
+
+    public Automobile retrieve() {
+        return a;
+    }
+
+    public void store(item i) {
+        items.add(i);
+
+    }
+
+    public item retrieve(int i) {
+        return items.get(i);
+    }
+
 }
